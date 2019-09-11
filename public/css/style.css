@@ -1,0 +1,65 @@
+.blok {
+    height: 100vh;
+}
+
+.blok_1 {
+    height: 30vh !important;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+@font-face {
+    font-family: TT_Commons-Bold;
+    src: url(../fonts/TTCommons-Bold.ttf);
+  }
+
+@font-face {
+    font-family: TT_Commons-ExtraLight;
+    src: url(../fonts/TTCommons-ExtraLight.ttf);
+  }
+
+.slogan {
+    margin-top: 70vh;
+    margin-left: 70px;
+    font-size: 1.5em;
+    font-family: 'TT_Commons-Bold', sans-serif;
+    font-size: 1.4em;
+    font-weight: 900;
+}
+
+.socials {
+    margin-top: 10vh;
+    float: right;
+    margin-right: 50px;
+}
+
+.socials h3 {
+    font-family: 'TT_Commons-ExtraLight', sans-serif;
+    font-weight: lighter;
+    margin-right: 1em;
+}
+
+.socials a, .socials h3 {
+    display: inline;
+    font-size: 1.5em;
+}
+
+.socials a i {
+    color: #7BC5BD;
+    font-size: .7em !important;
+    margin: 0 5px;
+}
+
+.blok_2 {
+    background-color: blue;
+}
+
+.blok_3 {
+    background-color: red;
+}
+
+.blok_4 {
+    background-color: green;
+}
