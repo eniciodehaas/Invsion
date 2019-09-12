@@ -7,8 +7,8 @@
     <meta name="author" content="Boyd Hoogkamer, Enicio de Haas, Rico Dijkstra">
     <meta name="keywords" content="Webdesign, Invsion">
     <meta name="description" content="Webdesign and webdevelopment">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/e8099e14eb.js"></script>
     <link rel="apple-touch-icon" href="img/logo.svg">
     <meta name='msapplication-TileImage' content='img/logo.png'>
@@ -19,7 +19,7 @@
 </head>
 <body>
 <header>
-<div class="navbar">
+<div class="navbar" id="navbar">
         <ul class="navbarimg">
           <li><img src="img/logo.png" alt="logo"></a></li>
 </ul>

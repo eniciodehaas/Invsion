@@ -2,11 +2,29 @@
     padding: 0;
     margin: 0;
   }
+  @font-face {
+    font-family: TT_Commons-Bold;
+    src: url(../fonts/TTCommons-Bold.ttf);
+  }
 
   @font-face {
     font-family: TT_Commons-Light;
     src: url(../fonts/TTCommons-Light.ttf);
   }
+
+  @font-face {
+    font-family: TT_Commons-ExtraLight;
+    src: url(../fonts/TTCommons-ExtraLight.ttf);
+  }
+
+  @font-face {
+    font-family: TT_Commons-Regular;
+    src: url(../fonts/TTCommons-Regular.ttf);
+  }
+
+  body::-webkit-scrollbar {
+    display: none;
+}
 
   .navbar {
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) , rgba(255,255,255,1) 70%, rgba(255,255,255,0));

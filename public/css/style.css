@@ -1,25 +1,3 @@
-.blok {
-    height: 100vh;
-}
-
-.blok_1 {
-    height: 30vh !important;
-}
-
-body::-webkit-scrollbar {
-    display: none;
-}
-
-@font-face {
-    font-family: TT_Commons-Bold;
-    src: url(../fonts/TTCommons-Bold.ttf);
-  }
-
-@font-face {
-    font-family: TT_Commons-ExtraLight;
-    src: url(../fonts/TTCommons-ExtraLight.ttf);
-  }
-
 .slogan {
     margin-top: 70vh;
     margin-left: 70px;
@@ -30,7 +8,7 @@ body::-webkit-scrollbar {
 }
 
 .socials {
-    margin-top: 10vh;
+    margin-top: 9vh;
     float: right;
     margin-right: 50px;
 }
@@ -52,13 +30,118 @@ body::-webkit-scrollbar {
     margin: 0 5px;
 }
 
+
+.blok {
+    height: 100vh;
+}
+
+.blok_1 {
+    height: 30vh !important;
+}
+
 .blok_2 {
-    background-color: blue;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+}
+.ourvision {
+    margin-left: 30px;
+}
+
+.blok_2 img {
+    margin-top: 15.5vh;
+    height: 500px;
+    grid-column: 1/2;
+}
+.blok_2 h3{
+    grid-column: 2/2;
+    font-family: 'TT_Commons-Bold', sans-serif;
+    font-size: 70px;
+    margin-top: 15.5vh;
+    text-align: center;
+} 
+
+.blok_2 p {
+    grid-column: 2/2;
+    width: 450px;
+    margin: 0 auto;
+    font-family: 'TT_Commons-Light', sans-serif;
+    font-size: 20px;
 }
 
 .blok_3 {
-    background-color: red;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
 }
+
+.blok_3 h3 {
+    font-size: 60px;
+}
+
+.design {
+    grid-column: 1/2;
+    margin: 100px;
+}
+
+.design h3 {
+    font-family: 'TT_Commons-Bold', sans-serif;
+}
+
+.brand {
+    font-family: 'TT_Commons-Regular', sans-serif;
+    font-size: 25px;
+}
+
+.startuptext {
+    font-family: 'TT_Commons-Light', sans-serif;
+    text-decoration-line: underline;
+    font-size: 25px;
+}
+
+.websites {
+    font-family: 'TT_Commons-Regular', sans-serif;
+    font-size: 25px;
+}
+
+.light {
+    font-family: 'TT_Commons-Light', sans-serif;
+    font-size: 25px;
+}
+
+.startup {
+    grid-column: 2/2;
+    margin: 100px;
+}
+
+.startup h3 {
+    font-family: 'TT_Commons-Bold', sans-serif;
+}
+
+.bedrag {
+    font-family: 'TT_Commons-Regular', sans-serif;
+    font-size: 25px;
+}
+
+.includes, .list {
+    font-family: 'TT_Commons-Light', sans-serif;
+    font-size: 25px;
+}
+
+.list {
+    margin-left: 20px;
+}
+
+.button {
+    background-color: #7BC5BD;
+    border: none;
+    color: white;
+    padding: 10px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    font-family: 'TT_Commons-Light', sans-serif;
+  }
 
 .blok_4 {
     background-color: green;
