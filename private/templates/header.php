@@ -24,11 +24,11 @@
           <li><img src="img/logo.png" alt="logo"></a></li>
 </ul>
 <nav>
-<ul class="navbartext">
- <li><a class="">Our vision</a></li>
- <li><a class="">Design + Develop</a></li>
- <li><a class="">Our team</a></li>
- <li><a class="">Contact</a></li>
+<ul class="navbartext" id="navbartext">
+ <li><a class="navbarbutton">Our vision</a></li>
+ <li><a class="navbarbutton">Design + Develop</a></li>
+ <li><a class="navbarbutton">Our team</a></li>
+ <li><a class="navbarbutton">Contact</a></li>
 </ul>
 </nav>
 </div>

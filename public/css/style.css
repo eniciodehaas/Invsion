@@ -1,20 +1,67 @@
-.slogan {
+/* .slogan {
     margin-top: 70vh;
     margin-left: 70px;
     font-size: 1.5em;
     font-family: 'TT_Commons-Bold', sans-serif;
     font-size: 1.4em;
     font-weight: 900;
+} */
+
+.home-we {
+    position: absolute;
+    margin-top: 55.5vh;
+    transform: translateY(-50%);
+    font-size: 100px;
+    margin-left: 10vw;
 }
 
+.home-design,
+.home-create,
+.home-are {
+    position: absolute;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+    font-size: 80px;
+    margin-left: 22vw;
+    transform: rotateX(90deg);
+    display: block;
+}
+
+.home-design {
+    animation: slogan 6s infinite;
+}
+
+.home-create {
+    animation: slogan 6s infinite 2s;
+}
+
+.home-are {
+    animation: slogan 6s infinite 4s;
+}
+
+@keyframes slogan {
+    0%{transform: rotateX(90deg);
+        opacity: 0;}
+    15%{transform: rotateX(0deg);
+        opacity: 1;}
+    33%{transform: rotateX(270);
+        opacity: 0;}
+    66%{transform: rotateX(0);
+        opacity: 0;}
+    100%{transform: rotateX(0);
+        opacity: 0;}
+}
+
+
+
 .socials {
-    margin-top: 9vh;
+    margin-top: 7vh;
     float: right;
     margin-right: 50px;
 }
 
 .socials h3 {
-    font-family: 'TT_Commons-ExtraLight', sans-serif;
+    font-family: 'Gilroy-Light', sans-serif;
     font-weight: lighter;
     margin-right: 1em;
 }
@@ -36,7 +83,7 @@
 }
 
 .blok_1 {
-    height: 30vh !important;
+    height: 100vh !important;
 }
 
 .blok_2 {
@@ -54,7 +101,7 @@
 }
 .blok_2 h3{
     grid-column: 2/2;
-    font-family: 'TT_Commons-Bold', sans-serif;
+    font-family: 'Gilroy-Bold', sans-serif;
     font-size: 70px;
     margin-top: 15.5vh;
     text-align: center;
@@ -64,13 +111,17 @@
     grid-column: 2/2;
     width: 450px;
     margin: 0 auto;
-    font-family: 'TT_Commons-Light', sans-serif;
+    font-family: 'Gilroy-Light', sans-serif;
     font-size: 20px;
 }
 
 .blok_3 {
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
     display: grid;
+}
+.grid-right {
+    grid-column: 2/2;
 }
 
 .blok_3 h3 {
@@ -83,46 +134,48 @@
 }
 
 .design h3 {
-    font-family: 'TT_Commons-Bold', sans-serif;
+    font-family: 'Gilroy-Bold', sans-serif;
 }
 
 .brand {
-    font-family: 'TT_Commons-Regular', sans-serif;
+    font-family: 'Gilroy-Light', sans-serif;
     font-size: 25px;
 }
 
 .startuptext {
-    font-family: 'TT_Commons-Light', sans-serif;
+    font-family: 'Gilroy-Light', sans-serif;
     text-decoration-line: underline;
     font-size: 25px;
 }
 
 .websites {
-    font-family: 'TT_Commons-Regular', sans-serif;
+    font-family: 'Gilroy-Light', sans-serif;
     font-size: 25px;
 }
 
 .light {
-    font-family: 'TT_Commons-Light', sans-serif;
+    font-family: 'Gilroy-Light', sans-serif;
     font-size: 25px;
 }
 
-.startup {
-    grid-column: 2/2;
+.startup,
+.update {
     margin: 100px;
+    position: relative;
 }
 
-.startup h3 {
-    font-family: 'TT_Commons-Bold', sans-serif;
+
+.grid-right h3 {
+    font-family: 'Gilroy-Bold', sans-serif;
 }
 
 .bedrag {
-    font-family: 'TT_Commons-Regular', sans-serif;
+    font-family: 'Gilroy-Light', sans-serif;
     font-size: 25px;
 }
 
 .includes, .list {
-    font-family: 'TT_Commons-Light', sans-serif;
+    font-family: 'Gilroy-Light', sans-serif;
     font-size: 25px;
 }
 
@@ -134,7 +187,7 @@
     background-color: #7BC5BD;
     border: none;
     color: white;
-    padding: 10px 18px;
+    padding: 13px 21px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -143,6 +196,35 @@
     font-family: 'TT_Commons-Light', sans-serif;
   }
 
-.blok_4 {
-    background-color: green;
+
+
+.blok_4_title {
+    font-size: 70px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    margin-left: 100px;
+    padding-top: 50px;
+}
+
+.portrait_name {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 25px;
+}
+
+.portrait_function {
+    font-family: 'Gilroy-Light', sans-serif;
+}
+
+.blok_4_grid {
+    display: grid;
+    margin: 0 300px; 
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-row-gap: 100px;
+    text-align: center;
+}
+
+.blok_4 img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    clip-path: circle();
 }
