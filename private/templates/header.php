@@ -9,6 +9,7 @@
     <meta name="description" content="Webdesign and webdevelopment">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="contact.css">
     <script src="https://kit.fontawesome.com/e8099e14eb.js"></script>
     <link rel="apple-touch-icon" href="img/logo.svg">
     <meta name='msapplication-TileImage' content='img/logo.png'>
@@ -21,13 +22,13 @@
 <header>
 <div class="navbar" id="navbar">
         <ul class="navbarimg">
-          <li><img src="img/logo.png" alt="logo"></a></li>
+          <li><a href="#section"><img src="img/logo.png" alt="logo"></a></li>
 </ul>
 <nav>
 <ul class="navbartext" id="navbartext">
- <li><a class="navbarbutton">Our vision</a></li>
- <li><a class="navbarbutton">Design + Develop</a></li>
- <li><a class="navbarbutton">Our team</a></li>
+ <li><a href="#section1" class="navbarbutton">Our vision</a></li>
+ <li><a href="#section2" class="navbarbutton">Design + Develop</a></li>
+ <li><a href="#section3" class="navbarbutton">Our team</a></li>
  <li><a class="navbarbutton">Contact</a></li>
 </ul>
 </nav>

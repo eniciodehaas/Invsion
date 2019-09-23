@@ -16,3 +16,58 @@ document.body.onscroll = function() {
         navbar_white.classList.add("navbar-scrolled");
     }
 }
+
+
+startupButton = document.getElementById("startupButton");
+updateButton = document.getElementById("updateButton");
+starterButton = document.getElementById("starterButton");
+premiumButton = document.getElementById("premiumButton");
+deluxeButton = document.getElementById("deluxeButton");
+
+startup = document.getElementById("startup");
+update = document.getElementById("update");
+starter = document.getElementById("starter");
+premium = document.getElementById("premium");
+deluxe = document.getElementById("deluxe");
+
+
+
+startupButton.addEventListener("click", function(){
+    startup.classList.remove("display-none");
+    update.classList.add("display-none");
+    starter.classList.add("display-none");
+    premium.classList.add("display-none");
+    deluxe.classList.add("display-none");
+});
+
+updateButton.addEventListener("click", function(){
+    startup.classList.add("display-none");
+    update.classList.remove("display-none");
+    starter.classList.add("display-none");
+    premium.classList.add("display-none");
+    deluxe.classList.add("display-none");
+});
+
+starterButton.addEventListener("click", function(){
+    startup.classList.add("display-none");
+    update.classList.add("display-none");
+    starter.classList.remove("display-none");
+    premium.classList.add("display-none");
+    deluxe.classList.add("display-none");
+});
+
+premiumButton.addEventListener("click", function(){
+    startup.classList.add("display-none");
+    update.classList.add("display-none");
+    starter.classList.add("display-none");
+    premium.classList.remove("display-none");
+    deluxe.classList.add("display-none");
+});
+
+deluxeButton.addEventListener("click", function(){
+    startup.classList.add("display-none");
+    update.classList.add("display-none");
+    starter.classList.add("display-none");
+    premium.classList.add("display-none");
+    deluxe.classList.remove("display-none");
+});

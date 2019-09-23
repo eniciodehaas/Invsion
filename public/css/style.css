@@ -28,15 +28,15 @@
 }
 
 .home-design {
-    animation: slogan 6s infinite;
+    animation: slogan 5s infinite;
 }
 
 .home-create {
-    animation: slogan 6s infinite 2s;
+    animation: slogan 5s infinite 1.5s;
 }
 
 .home-are {
-    animation: slogan 6s infinite 4s;
+    animation: slogan 5s infinite 3.5s;
 }
 
 @keyframes slogan {
@@ -55,9 +55,11 @@
 
 
 .socials {
-    margin-top: 7vh;
     float: right;
     margin-right: 50px;
+    position: relative;
+    margin-top: 90vh;
+    z-index: -10;
 }
 
 .socials h3 {
@@ -120,9 +122,6 @@
     grid-template-rows: 1fr;
     display: grid;
 }
-.grid-right {
-    grid-column: 2/2;
-}
 
 .blok_3 h3 {
     font-size: 60px;
@@ -142,12 +141,6 @@
     font-size: 25px;
 }
 
-.startuptext {
-    font-family: 'Gilroy-Light', sans-serif;
-    text-decoration-line: underline;
-    font-size: 25px;
-}
-
 .websites {
     font-family: 'Gilroy-Light', sans-serif;
     font-size: 25px;
@@ -158,10 +151,23 @@
     font-size: 25px;
 }
 
+
+
 .startup,
-.update {
+.update,
+.starter,
+.premium,
+.deluxe {
     margin: 100px;
-    position: relative;
+    grid-column: 2/2;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.pointer:hover {
+    color: grey;
 }
 
 
@@ -199,7 +205,7 @@
 
 
 .blok_4_title {
-    font-size: 70px;
+    font-size: 60px;
     font-family: 'Gilroy-Bold', sans-serif;
     margin-left: 100px;
     padding-top: 50px;
@@ -207,7 +213,7 @@
 
 .portrait_name {
     font-family: 'Gilroy-Bold', sans-serif;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .portrait_function {
@@ -215,8 +221,9 @@
 }
 
 .blok_4_grid {
-    display: grid;
-    margin: 0 300px; 
+    display: grid; 
+    margin: 0 200px; 
+    margin-top: 40px;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     grid-row-gap: 100px;
     text-align: center;
@@ -227,4 +234,8 @@
     height: 200px;
     object-fit: cover;
     clip-path: circle();
+}
+
+.display-none {
+    display: none;
 }

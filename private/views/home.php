@@ -1,6 +1,6 @@
 <?php require "../private/templates/header.php"; ?>
 <main class="main">
-<section>
+<section id="section">
 <div class="blok blok_1">
     <div class="slogan">
         <!-- <h2>We Design, <br>
@@ -20,7 +20,7 @@
     </div>
 </div>
 </section>
-<section>
+<section id="section1">
 <div class="blok blok_2">
 <img src="img/vision.jpeg" alt="Our Vision">
 <div class="ourvision">
@@ -29,22 +29,20 @@
 </div>
 </div>
 </section>
-<section>
+<section id="section2">
 <div class="blok blok_3">
 <div class="design">
 <h3>Design + Develop</h3><br><br><br><br>
     <p class="brand">BRAND</p><br>
     <br>
-    <p class="startuptext" id="startupButton">Start up</p>
-    <p class="light" id="updateButton">Update</p><br>
+    <p class="light pointer" id="startupButton">Start up</p>
+    <p class="light pointer" id="updateButton">Update</p><br>
     <br>
     <p class="websites">WEBSITES</p><br>
     <br>
-    <p class="light">
-       Starter<br>
-       Premium<br>
-       Deluxe<br>
-    </p>
+       <p class="light pointer" id="starterButton">Starter</p>
+       <p class="light pointer" id="premiumButton"> Premium</p>
+       <p class="light pointer" id="deluxeButton">Deluxe</p>
 </div>
 <!-- STARTUP -->
 <div class="startup" id="startup">
@@ -65,27 +63,83 @@
 <button class="button" >Contact us</button>
 </div>
 <!-- UPDATE -->
-<div class="update" id="update">
-<h3>Start up</h3>
-<p class="bedrag">€2,500,-</p><br>
+<div class="update display-none" id="update">
+<h3>Update</h3>
+<p class="bedrag">€3,000,-</p><br>
 <br>
 <br>
 <p class="includes">INCLUDES</p><br>
     <ul class="list">
-        <li>Logo</li>
+        <li>Logo changes</li>
         <li>Elevator Pitch and Strap Line</li>
         <li>Communications templates (email + letterhead)</li>
         <li>Business card (print/digital)</li>
         <li>Email signature</li>
         <li>Brand guide</li>
+        <li>Internal Branding and Change Manegement Communication</li>
+    </ul>
+    <br>
+<button class="button" >Contact us</button>
+</div>
+<!-- Starter -->
+<div class="starter display-none" id="starter">
+<h3>Starter</h3>
+<p class="bedrag">€1,000,-</p><br>
+<br>
+<br>
+<p class="includes">INCLUDES</p><br>
+    <ul class="list">
+        <li>5 pages + premium imagery + content Optional blog</li>
+        <li>2 design revisions</li>
+        <li>Standard contact form & autoresponder, Google map)</li>
+        <li>Google My Business and basic SEO setup, including SSL certificate</li>
+        <li>Site monitoring for 1 month</li>
+    </ul>
+    <br>
+<button class="button" >Contact us</button>
+</div>
+<!-- Premium -->
+<div class="premium display-none" id="premium">
+<h3>Premium</h3>
+<p class="bedrag">€1,500,-</p><br>
+<br>
+<br>
+<p class="includes">INCLUDES</p><br>
+    <ul class="list">
+        <li>10 pages + premium imagery + content</li>
+        <li>Blog</li>
+        <li>5 design revisions</li>
+        <li>Extended lead qualifying contact form & autoresponder</li>
+        <li>Google My Business and local SEO setup, including SSL certificate</li>
+        <li>Site monitoring for 1 month</li>
+    </ul>
+    <br>
+<button class="button" >Contact us</button>
+</div>
+<!-- Deluxe -->
+<div class="deluxe display-none" id="deluxe">
+<h3>Deluxe</h3>
+<p class="bedrag">€2,000,-</p><br>
+<br>
+<br>
+<p class="includes">INCLUDES</p><br>
+    <ul class="list">
+        <li>Ecommerce or Lead Qualifying website</li>
+        <li>5 pages, store set up, premium imagery + content</li>
+        <li>5 design revisions</li>
+        <li>Payment gateway integrations</li>
+        <li>Google My Business and basic SEO setup, including SSL certificate</li>
+        <li>Lead funnel communication setup</li>
+        <li>Site monitoring for 1 month</li>
     </ul>
     <br>
 <button class="button" >Contact us</button>
 </div>
 
+
 </div>
 </section>
-<section>
+<section id="section3">
 <div class="blok blok_4">
     <h2 class="blok_4_title">Our Team</h2>
     <div class="blok_4_grid">

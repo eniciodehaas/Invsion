@@ -2,6 +2,10 @@
     padding: 0;
     margin: 0;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
   @font-face {
     font-family: Gilroy-Bold;
     src: url(../fonts/Gilroy-ExtraBold.otf);
@@ -62,6 +66,8 @@
     position: relative;
     font-family: 'Gilroy-Light', sans-serif;
     font-size: 1.4em;
+    text-decoration: none;
+    color: black;
   }
 
   .navbartext li a::after {
@@ -116,6 +122,10 @@
     top: 2em;
     width: calc(100% - 2*18px);
     left: 18px;
+  }
+
+  .light {
+    font-family: 'Gilroy-Light', sans-serif;
   }
   
   @media only screen and (max-width: 450px) {
