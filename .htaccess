@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteBase / 
+
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://invsion.nl/$1 [R=301,L]
+
