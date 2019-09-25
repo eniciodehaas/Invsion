@@ -1,7 +1,7 @@
 
 <?php include __DIR__ . "/../templates/header.php"; ?>
 
-<form name="contactform" method="post" action="send_form_email.php">
+<form name="contactform" method="post" action="">
 <table width="450px">
 <tr>
  <td valign="top">
@@ -45,7 +45,7 @@
 </tr>
 <tr>
  <td colspan="2" style="text-align:center">
-  <input type="submit" value="Submit">   <a href="http://www.freecontactform.com/email_form.php">Email Form</a>
+  <input type="submit" value="Submit"> 
  </td>
 </tr>
 </table>
