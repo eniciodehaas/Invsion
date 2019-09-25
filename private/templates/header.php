@@ -22,13 +22,13 @@
 <header>
 <div class="navbar" id="navbar">
         <ul class="navbarimg">
-          <li><a href="#section"><img src="/img/logo.png" alt="logo"></a></li>
+          <li><a href="/home#section"><img src="/img/logo.png" alt="logo"></a></li>
 </ul>
 <nav>
 <ul class="navbartext" id="navbartext">
- <li><a href="#section1" class="navbarbutton">Our vision</a></li>
- <li><a href="#section2" class="navbarbutton">Design + Develop</a></li>
- <li><a href="#section3" class="navbarbutton">Our team</a></li>
+ <li><a href="/home#section1" class="navbarbutton">Our vision</a></li>
+ <li><a href="/home#section2" class="navbarbutton">Design + Develop</a></li>
+ <li><a href="/home#section3" class="navbarbutton">Our team</a></li>
  <li><a href="/contact" class="navbarbutton">Contact</a></li>
 </ul>
 </nav>

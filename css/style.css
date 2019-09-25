@@ -6,7 +6,7 @@
     font-size: 1.4em;
     font-weight: 900;
 } */
-@media screen and (min-width: 380px ) {
+/* @media screen and (min-width: 380px ) { */
 .home-we {
     position: absolute;
     margin-top: 55.5vh;
@@ -206,7 +206,7 @@
     display: inline-block;
     font-size: 16px;
     border-radius: 12px;
-    font-family: 'TT_Commons-Light', sans-serif;
+    font-family: 'Gilroy-Light', sans-serif;
     cursor: pointer;
   }
 
@@ -247,4 +247,4 @@
 .display-none {
     display: none;
 }
-}
+/* } */
