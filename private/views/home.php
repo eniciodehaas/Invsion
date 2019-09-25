@@ -1,4 +1,4 @@
-<?php require "../private/templates/header.php"; ?>
+<?php require __DIR__ . "/../templates/header.php"; ?>
 <main class="main">
 <section id="section">
 <div class="blok blok_1">
@@ -25,7 +25,7 @@
 <img src="img/vision.jpeg" alt="Our Vision">
 <div class="ourvision">
     <h3>Our vision</h3><br>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vele.<br><br> molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+    <p></p>
 </div>
 </div>
 </section>
@@ -179,4 +179,4 @@
 
 
 </main>
-<?php require "../private/templates/footer.php"?>
+<?php require __DIR__ . "/../templates/footer.php"; ?>
