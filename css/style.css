@@ -164,7 +164,7 @@
 .starter,
 .premium,
 .deluxe {
-    margin: 100px;
+    margin: 105px;
     grid-column: 2/2;
 }
 
@@ -245,11 +245,12 @@
 
 .blok_4_grid {
     display: grid; 
-    margin: 0 200px; 
+    margin: 40px auto; 
     margin-top: 40px;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     grid-row-gap: 100px;
     text-align: center;
+    max-width: 1040px;
 }
 
 .blok_4 img {
@@ -339,7 +340,7 @@
     .socials {
         left: 1.5rem;
         position: absolute;
-        margin-top: calc(90vh - 55px);
+        margin-top: calc(90vh - 75px);
         z-index: 1;
     }
 
