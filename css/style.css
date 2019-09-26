@@ -6,26 +6,31 @@
     font-size: 1.4em;
     font-weight: 900;
 } */
-/* @media screen and (min-width: 380px ) { */
+@media screen and (min-width: 414px ) {
 .home-we {
     position: absolute;
-    margin-top: 55.5vh;
-    transform: translateY(-50%);
-    font-size: 100px;
+    margin-top: calc(50vh - 40px);
+    font-size: 80px;
     margin-left: 10vw;
+    font-family: 'Gilroy-Bold', sans-serif;
+    cursor: default;
+}
+
+#section2 {
+    display: block;
 }
 
 .home-design,
 .home-create,
 .home-are {
     position: absolute;
-    margin-top: 50vh;
-    transform: translateY(-50%);
+    margin-top: calc(50vh - 40px);
     font-size: 80px;
-    margin-left: 22vw;
+    margin-left: calc(10vw + 160px);
     transform: rotateX(90deg);
-    display: block;
     cursor: default;
+    font-family: 'Gilroy-Bold', sans-serif;
+    display: block;
 }
 
 .home-design {
@@ -102,6 +107,7 @@
 }
 
 .blok_2 img {
+    display: block;
     margin-top: 15.5vh;
     height: 500px;
     grid-column: 1/2;
@@ -250,10 +256,321 @@
     width: 200px;
     height: 200px;
     object-fit: cover;
-    clip-path: circle();
+    border-radius: 50%;
+    filter: grayscale(100%);
 }
 
 .display-none {
     display: none;
 }
-/* } */
+}
+
+
+/* ----------------
+----------------
+---------------- */
+
+
+
+
+
+/* ----------------
+----------------
+---------------- */
+
+
+
+
+
+
+
+@media only screen and (max-width: 414px) {
+    .home-we {
+        position: absolute;
+        margin-top: 37vh;
+        font-size: 40px;
+        margin-left: 10vw;
+        font-family: 'Gilroy-Bold', sans-serif;
+    }
+
+    #section2 {
+        display: none;
+    }
+
+    .home-design,
+    .home-create,
+    .home-are {
+        position: absolute;
+        margin-top: calc(37vh + 40px);
+        font-size: 40px;
+        margin-left: 10vw;
+        transform: rotateX(90deg);
+        display: block;
+        font-family: 'Gilroy-Bold', sans-serif;
+    }
+
+    .home-design {
+        animation: slogan 6s infinite;
+    }
+
+    .home-create {
+        animation: slogan 6s infinite 2s;
+    }
+
+    .home-are {
+        animation: slogan 6s infinite 4s;
+    }
+
+    @keyframes slogan {
+        0%{transform: rotateX(90deg);
+            opacity: 0;}
+        15%{transform: rotateX(0deg);
+            opacity: 1;}
+        33%{transform: rotateX(270);
+            opacity: 0;}
+        66%{transform: rotateX(0);
+            opacity: 0;}
+        100%{transform: rotateX(0);
+            opacity: 0;}
+    }
+
+
+
+    .socials {
+        left: 1.5rem;
+        position: absolute;
+        margin-top: calc(90vh - 55px);
+        z-index: 1;
+    }
+
+    .socials h3 {
+        font-family: 'Gilroy-Light', sans-serif;
+        font-weight: lighter;
+        margin-right: 1em;
+    }
+
+    .socials a, .socials h3 {
+        display: inline;
+        font-size: 1.5em;
+    }
+
+    .socials a i {
+        color: #7BC5BD;
+        font-size: .7em !important;
+        margin: 0 5px;
+    }
+
+
+    .blok {
+        height: 100vh;
+    }
+
+    .blok_1 {
+        height: 100vh !important;
+    }
+
+    .blok_2 {
+        grid-template-columns: 1fr;
+        height: 70vh;
+        padding: 1.5rem;
+    }
+
+    .blok_2 img {
+        display: none;
+    }
+
+    .blok_2 h3{
+        font-family: 'Gilroy-Bold', sans-serif;
+        font-size: 2.5rem
+    } 
+    
+    .blok_2 p {
+        font-family: 'Gilroy-Light', sans-serif;
+        font-size: 1.2rem;
+    }
+
+.startup h3,
+.update h3,
+.starter h3,
+.premium h3,
+.deluxe h3 {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.pointer:hover {
+    color: #7BC5BD;;
+}
+
+
+.grid-right h3 {
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+
+.bedrag {
+    font-family: 'Gilroy-Light', sans-serif;
+    font-size: 25px;
+}
+
+.includes, .list {
+    font-family: 'Gilroy-Light', sans-serif;
+    font-size: 1rem;
+}
+
+.list {
+    padding: 0;
+    margin-left: 20px;
+}
+
+.button {
+    background-color: #7BC5BD;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: .8rem;
+    border-radius: 5px;
+    font-family: 'Gilroy-Light', sans-serif;
+    cursor: pointer;
+    transition: background-color 500ms ease-in-out;
+  }
+
+  .button:hover {
+    background-color: #449b92;
+}
+
+
+
+
+
+    .blok_4_title {
+        font-size: 2.5rem;
+        font-family: 'Gilroy-Bold', sans-serif;
+        margin-left: 1.5rem;
+        margin-top: 100px;
+        margin-bottom: 2.5rem;
+    }
+
+    .portrait_name {
+        font-family: 'Gilroy-Bold', sans-serif;
+        font-size: 25px;
+    }
+
+    .portrait_function {
+        font-family: 'Gilroy-Light', sans-serif;
+    }
+
+    .blok_4_grid {
+        display: grid;
+        margin: 0 30px;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        grid-row-gap: 100px;
+        text-align: center;
+    }
+
+    .blok_4 img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 50%;
+        filter: grayscale(100%);
+    }
+
+    #section2-mobile {
+        display: block;
+    }
+
+    
+.carousel {
+
+    position: relative;
+    height: 400px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.carousel__track-container {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel__track {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    height: 100%;
+    transition: transform 300ms ease-in;
+}
+
+.carousel__slide {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.carousel__button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 20px 0;
+}
+
+.carousel__button:focus {
+    outline: none;
+}
+
+.carousel__button--left {
+    left: -30px;
+}
+
+.carousel__button--right {
+    right: -30px;
+}
+
+.carousel__button img {
+    width: 20px;
+    height: 40px;
+}
+
+.carousel__nav {
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
+
+.carousel__indicator {
+    border: none;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: rgba(123,197,189, .3);
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.carousel__indicator:focus {
+    outline: none;
+}
+
+.carousel__indicator.current-slide {
+    background-color: rgba(123,197,189, 1);
+}
+
+.is-hidden {
+    display: none;
+}
+
+  }

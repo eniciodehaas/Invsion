@@ -133,9 +133,49 @@
     font-family: 'Gilroy-Light', sans-serif;
   }
   
-  @media only screen and (max-width: 450px) {
-    .navbartext{
-      font-size: 13px;
+  @media only screen and (max-width: 414px) {
+    nav ul li{
+      display: none;
+    }
+
+    nav ul li:last-of-type {
+      display: block;
+    }
+
+    .navbar {
+      background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) , rgba(255,255,255,1) 70%, rgba(255,255,255,0));
+      height: 65px;
+      top: 0;
+    }
+  
+    .navbar li {
+      height: 50px;
+    }
+  
+    .navbar img {
+      height: 40px;
+      margin: 5px !important;
+      padding-left: 10px;
+      position: sticky;
+    }
+
+    .navbartext {
+      margin: -15px !important; 
+      font-size: .7em;
+    }
+    
+    .navbartext li a::after {
+      top: 2em;
+      width: calc(100% - 2*18px);
+      left: 18px;
+    }
+
+    body {
+      scroll-snap-type: none;
+    }
+
+    section {
+      scroll-snap-align: none;
     }
   }
   

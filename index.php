@@ -12,7 +12,6 @@ switch ($_GET['page']) {
         home();
         break;
     case 'contact':
-        echo 'test';
         contact();
         break;
     default:
